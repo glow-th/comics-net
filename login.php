@@ -16,7 +16,7 @@
     </div>
     <div class="login-form">
       <div class="text">LOGIN</div>
-      <form method="post" action="/submit-form.html">
+      <form method="post" action="/uhakiki/signin.php">
         <div class="field">
           <div class="fa-solid fa-envelope"></div>
           <input type="text" placeholder="Email or Phone" />
