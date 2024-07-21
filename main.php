@@ -1,3 +1,18 @@
+<?php 
+require_once './uhakiki/unga.php';
+
+session_start();
+
+$dash = mysqli_query($unga, "SELECT * FROM `users` WHERE uid = '$uid'");
+
+if ($dash->num_rows === 1) {
+  
+}
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,7 +48,7 @@
             <li><a href="#about">about</a></li>
             <li><a href="#features">features</a></li>
             <li><a href="#product">product</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li><a href="#profile">profile</a></li>
         </ul>
     </nav>
 
