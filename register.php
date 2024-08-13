@@ -30,7 +30,7 @@
           <div class="fas fa-lock"></div>
           <input type="password" placeholder="Password" />
         </div>
-        <button>Login</button>
+        <button type="submit">Register</button>
         <div class="link">
           Not a member?
           <a href="login.php">login now</a>
