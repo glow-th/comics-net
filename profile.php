@@ -1,16 +1,16 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['user_id'])) {
+if (!isset($_SESSION['uid'])) {
     header("location: login.php");
     exit;
 }
 
-$db = new SQLite3('store/sqlite.db');
+$db = new SQLite3('uhakiki/store/sqlite.db');
 
-$user_id = $_SESSION['user_id'];
+$user_id = $_SESSION['uid'];
 $stmt = $db->prepare("SELECT * FROM users WHERE id=:id");
-$stmt->bindValue(':id', $user_id, SQLITE3_INTEGER);
+$stmt->bindValue(':id', $uid, SQLITE3_INTEGER);
 $result = $stmt->execute();
 $user = $result->fetchArray(SQLITE3_ASSOC);
 
