@@ -1,3 +1,4 @@
+<?php require_once 'uhakiki/register.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,10 +18,6 @@
     <div class="login-form">
       <div class="text">Register</div>
       <form method="post" action="login.php">
-        <?php 
-        require_once 'uhakiki/register.php';
-        ?>
-
         <div class="field">
           <div class="fa-solid fa-user"></div>
           <input type="text" placeholder="Username" />
