@@ -16,7 +16,10 @@
     </div>
     <div class="login-form">
       <div class="text">LOGIN</div>
-      <form method="post" action="/uhakiki/login.php">
+      <form method="post" action="login.php">
+        <?php 
+        require_once 'uhakiki/login.php';
+        ?>
         <div class="field">
           <div class="fa-solid fa-envelope"></div>
           <input type="text" placeholder="Email or Phone" />
