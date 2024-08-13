@@ -17,7 +17,7 @@
     </div>
     <div class="login-form">
       <div class="text">Register</div>
-      <form method="post" action="login.php">
+      <form method="post" action="register.php">
         <div class="field">
           <div class="fa-solid fa-user"></div>
           <input type="text" placeholder="Username" />
