@@ -292,7 +292,7 @@ we value your security concern<span class="white">🔒</span></p>
         <a href="#" class="fab fa-pinterest"></a> -->
     </div>
 
-    <h1 class="credit">created by <a href="#">Goodness tech</a> | all rights reserved </h1>
+    <h1 class="credit">Font end created by <a href="#">Goodness Tech</a> Back end created by <a href="https://wa.me/+255699722149"><?php echo "SAM TECHNOLOGY"; ?></a>| all rights reserved </h1>
 
 </div>
 
