@@ -20,15 +20,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $stmt->bindValue(':email', $email, SQLITE3_TEXT);
         $stmt->bindValue(':password', $password, SQLITE3_TEXT);
         $stmt->execute();
-        echo "Registration successful!";
+        header("location: login.php");
+        exit;
     }
 }
 ?>
-
-<!-- Registration Form -->
-<form method="POST" action="">
-    <input type="text" name="username" placeholder="Username" required><br>
-    <input type="email" name="email" placeholder="Email" required><br>
-    <input type="password" name="password" placeholder="Password" required><br>
-    <button type="submit">Register</button>
-</form>
