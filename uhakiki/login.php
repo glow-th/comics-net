@@ -20,11 +20,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Verify password
         if (password_verify($password, $user['password'])) {
             // Start a session
-            $_SESSION['user_id'] = $user['id'];
+            $_SESSION['uid'] = $user['id'];
             $_SESSION['username'] = $user['username'];
             
             // Redirect to profile page
-            header("Location: profile.php");
+            header("Location: main.php");
             exit;
         } else {
             echo "Invalid password!";
