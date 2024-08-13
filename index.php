@@ -5,7 +5,7 @@ if (!isset($_SESSION['uid'])) {
     header("location: login.php");
     exit;
 } else {
-    header("location: home.php");
+    header("location: main.php");
     exit;
 }
 ?>
