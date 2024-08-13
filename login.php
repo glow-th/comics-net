@@ -1,5 +1,6 @@
 <?php 
-require_once 'uhakiki/login.php';
+$dev = "SAM TECHNOLOGY";
+//require_once 'uhakiki/login.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +20,7 @@ require_once 'uhakiki/login.php';
     </div>
     <div class="login-form">
       <div class="text">LOGIN</div>
-      <form method="post" action="login.php">
+      <form action="uhakiki/login.php" method="post">
         <div class="field">
           <div class="fa-solid fa-envelope"></div>
           <input type="text" placeholder="Email or Phone" />
@@ -28,7 +29,7 @@ require_once 'uhakiki/login.php';
           <div class="fas fa-lock"></div>
           <input type="password" placeholder="Password" />
         </div>
-        <button>Login</button>
+        <button type="submit">Login</button>
         <div class="link">
           Not a member?
           <a href="#">Signup now</a>
