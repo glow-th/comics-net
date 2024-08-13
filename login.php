@@ -16,11 +16,7 @@
     </div>
     <div class="login-form">
       <div class="text">LOGIN</div>
-<<<<<<< Updated upstream
-      <form method="post" action="/uhakiki/signin.php">
-=======
-      <form method="post" action="dasboard.php">
->>>>>>> Stashed changes
+      <form method="post" action="/uhakiki/login.php">
         <div class="field">
           <div class="fa-solid fa-envelope"></div>
           <input type="text" placeholder="Email or Phone" />
